@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fale conosco</title>
+    
+    <link rel="stylesheet" href="style-fale-conosco.css" />
+  </head>
+
+  <body>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+
+    <div class="header-logo-fale">
+    <img src="./img/logo-header.png">
+    <a href="Index.html">Home</a>
+    <a href="Nosso-servicos.html">Nossos serviços</a>
+    <a>Fale conosco</a>
+  </div>
+
+    <div class="caixa-mae-fale-conosco">
+  <div class="fale-conosco">
+        <img src="img/logo.png" alt="logo do Mario fale conosco" class="logo-fale-conosco"/>
+      <p>
+        Estamos aqui para ajudar com todas as suas necessidades de encanamento.
+        Entre em contato conosco através de um dos métodos abaixo e
+        responderemos o mais breve possível.
+      </p>
+    <br/>
+
+      <p>
+        Preencha o formulário abaixo e nossa equipe entrará em contato com você.
+      </p>
+      <button onclick="mostrarform()">Formulário</button>
+    </div>
+
+    <img src="./img/luigi.webp" alt="Logo luigi" class="Luigi-fale-conosco"/>
+  </div>
+    
+ <div class="Fale-conosco-video">
+      <video src="img/Fale-conosco-video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+      </div>
+
+      <a
+      href="https://api.whatsapp.com/send?phone=551111555885&text=Bom%20dia"
+      class="conversa-wapp"
+    >
+      <img src="./img/whatsapp.webp" alt="link para o whatsapp" />
+    </a>
+    <div class="caixa-contatos">
+    <div class="contatos">
+      <h1>Atendimento Telefônico</h1>
+      <p>Você também pode nos ligar diretamente:</p>
+      <h4>Atendimento Telefônico</h4>
+      <p>(11) 1234-5678</p>
+
+      <h3>Atendimento via WhatsApp</h3>
+      <p>
+        Envie uma mensagem para o nosso WhatsApp e fale diretamente com um de
+        nossos atendentes.
+      </p>
+      <h4>WhatsApp:</h4>
+      <p>(11) 98765-4321</p>
+
+      <h3>Endereço</h3>
+      <p>Se preferir, você pode nos visitar no nosso escritório.</p>
+      <h4>Endereço:</h4>
+      <p>Rua Exemplo, 123, Bairro Exemplo, Cidade, Estado, CEP 12345-678</p>
+
+      <h3>E-mail</h3>
+      <p>
+        Envie um e-mail detalhando suas necessidades e entraremos em contato.
+      </p>
+      <h4>E-mail:</h4>
+      <p>contato@seudominio.com</p>
+   
+      
+
+    </div>
+  </div>
+
+<div class="rede-social">
+      <a href=" https://pt-br.facebook.com/">Facebook </a>
+      <br />
+      <a href="https://www.instagram.com/"> Instagram </a>
+      <br />
+      <a href="https://www.linkedin.com/"> Linkedin</a>
+    </div>
+
+      <form class="Formulário-fale-conosco">
+        <input placeholder="Nome completo" type="text" />
+        <input placeholder="E-mail" type="email" />
+        <input placeholder="Telefone" type="tel" />
+        <input placeholder="Assunto" type="text" />
+        <textarea placeholder=" Digite sua mensagem aqui"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+  </body>
+  <script src="fale-conosco.js"></script>
+</html>
